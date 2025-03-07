@@ -36,7 +36,7 @@ export default {
   display: flex;
   align-items: center;
 
-  gap: 10px; /* Adds 5px gap between elements */
+  gap: 10px; 
   padding-right: 5PX;
 }
 

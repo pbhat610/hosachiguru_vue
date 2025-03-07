@@ -15,7 +15,7 @@
         :class="{ selected: item.component === selectedComponent }"
         @click="selectComponent(item.component)"
       >
-        <!-- Dynamically Load SVG Icon -->
+        
         <img :src="getIconPath(item.icon)" alt="icon" class="menu-icon" />
         <span>{{ item.label }}</span>
       </li>
